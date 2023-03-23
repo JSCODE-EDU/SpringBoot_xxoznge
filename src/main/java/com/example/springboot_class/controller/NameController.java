@@ -1,0 +1,12 @@
+package com.example.springboot_class.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class NameController {
+    @GetMapping("api/xxoznge")
+    public String test(){
+        return "xxoznge";
+    }
+}
