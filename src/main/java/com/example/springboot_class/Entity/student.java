@@ -1,11 +1,10 @@
 package com.example.springboot_class.Entity;
 
-
 import javax.persistence.*;
 
 @Table
 @Entity
-public class TestTable {
+public class student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -13,6 +12,6 @@ public class TestTable {
     @Column
     private String name;
 
-    public TestTable() {
+    public student() {
     }
 }
